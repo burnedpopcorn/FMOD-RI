@@ -14,7 +14,10 @@ This is currently just instructions to prepare the source code to Integrate the 
 object and script to completly replace FMOD, and this has not been done yet.
 
 ## Downloads
-Since the files are bigger than what Github allows, I will have to use Google Drive, and links will be added shortly
+Since the files are bigger than what Github allows, I will have to use Google Drive
+
+- [Main FMOD Replacement Kit](https://drive.google.com/file/d/1dnxruN5Hg-2RMLfWST0989BPhy-ENN9o/view?usp=sharing)
+- [Extracted Audio for Step 2 of Instructions](justwait) LINK WILL BE MADE SHORTLY
 
 Current Instructions:
 
