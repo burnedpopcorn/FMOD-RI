@@ -19,8 +19,7 @@ Once I completely finish it myself, Revision 7 of my Noise Update Web Port will 
 ## Downloads
 Since the files are bigger than what Github allows, I will have to use Google Drive
 
-- [Main FMOD Replacement Kit](https://drive.google.com/file/d/1dnxruN5Hg-2RMLfWST0989BPhy-ENN9o/view?usp=sharing)
-- [Extracted Audio for Step 2 of Instructions](https://drive.google.com/file/d/1ewwSq0ynbbuo-yBnyS5SaL6OKyhvjMy_/view?usp=sharing)
+- [Extracted Audio for Step 1 of Instructions](https://drive.google.com/file/d/1ewwSq0ynbbuo-yBnyS5SaL6OKyhvjMy_/view?usp=sharing)
 - [Recommended Source Code](https://github.com/burnedpopcorn/Pizza-Tower-1.1.0-Web-Port/releases/tag/r6)
 
 ## Music Configuration
@@ -47,36 +46,7 @@ EMBRACE OLD SCRIPTS
 --------------------------------------------------------------------------------------------------------------
 
 Step 1
-Using the FMOD Replacement Kit (FMOD-RK)
-
-++++++++++++++++++++++++++++++++++++++++++++
-The included Kit contains a .yyp file that |
-has refrences to the music files, BUT it   |
-also refrences some objects and scripts    |
-that are only found in my slightly modified|
-version of the Noise Update, so use the    |
-Source Code in my Github if you want to use|
-the Kit					   |
-++++++++++++++++++++++++++++++++++++++++++++
-
-1. Download my slightly modified version of Pizza Tower from my Github
-2. Extract the ZIP Archive using 7zip (or WinRAR i guess)
-3. Copy over the assets from FMOD-RK into the folder containing the Source Code
-
-NOTE: You Need to Overwrite the .yyp file
-
-4. Proceed to replacing FMOD functions
-
-<--- 
-If you want to replace FMOD on an older Pizza Tower build,
-or just want to do this without the Kit for whatever reason,
-Proceed to the Step Below
---->
-
---------------------------------------------------------------------------------------------------------------
-
-Step 2
-To Extract Music Files from .BANK Files (No Kit Usage)
+Extracting Music Files from .BANK Files
 
 1. Download the "FMOD Bank Tools" Software from GameBanana
 2. Place `music.bank` and `sfx.bank` files from your copy of the game into the `/bank` sub-directory
@@ -88,12 +58,13 @@ To Extract Music Files from .BANK Files (No Kit Usage)
 
 WARNING!
 
-GMS2 might try to modify objects and scripts once you've copied the files to it. 
-DO NOT ALLOW GMS2 TO CHANGE THEM! ALL CHANGES HAVE TO BE DONE MANUALLY!
+GMS2 might try get confused, as the music names can be the same as some variables in some scripts and objects
+Please rename all music files with somw thing that will be absolutly unique, such as placing `mu_` or `sfx_`
+before the rest of the file name
 
 --------------------------------------------------------------------------------------------------------------
 
-Step 3
+Step 2
 To replace FMOD functions with the old scripts
 (functions found in `scr_sound.gml` & `scr_soundeffect.gml`)
 
