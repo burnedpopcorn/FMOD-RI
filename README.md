@@ -23,6 +23,16 @@ Since the files are bigger than what Github allows, I will have to use Google Dr
 - [Extracted Audio for Step 2 of Instructions](justwait) LINK WILL BE MADE SHORTLY
 - [Recommened Source Code](https://github.com/burnedpopcorn/Pizza-Tower-1.1.0-Web-Port/releases/tag/r6)
 
+## Music Configuration
+All audio files in the ```music``` folder is set to ```Compressed - Not Streamed```, and other settings are left on default
+
+All audio files in the ```sfx``` folder is set to ```Compressed - Streamed```, and other settings are left on default
+
+They are configured this way in order to put the big ```music``` files into a usually small file (game.unx when making a web port), and the small ```sfx``` files into an usually big file (runner.data), in order to even out the amount of data they hold
+> This is currently just a hypothesis, and hasn't been confirm nor tested
+>
+> Also leaving them uncompressed inflates the files sizes WAY too much
+
 Current Instructions:
 
 ```
