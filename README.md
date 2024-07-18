@@ -13,6 +13,9 @@ If you look at my Github Profile and my repos, you will see that I have made a W
 This is currently just instructions to prepare the source code to Integrate the music files into the GMS2 project. You currently have to manually go through every
 object and script to completly replace FMOD, and this has not been done yet.
 
+Once I completely finish it myself, Revision 7 of my Noise Update Web Port will release (with the source code, so you don't have to suffer)
+> Once r7 does release, this repo will probably be archived
+
 ## Downloads
 Since the files are bigger than what Github allows, I will have to use Google Drive
 
