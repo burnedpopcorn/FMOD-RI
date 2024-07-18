@@ -46,6 +46,7 @@ EMBRACE OLD SCRIPTS
 
 --------------------------------------------------------------------------------------------------------------
 
+Step 1
 Using the FMOD Replacement Kit (FMOD-RK)
 
 ++++++++++++++++++++++++++++++++++++++++++++
@@ -74,6 +75,7 @@ Proceed to the Step Below
 
 --------------------------------------------------------------------------------------------------------------
 
+Step 2
 To Extract Music Files from .BANK Files (No Kit Usage)
 
 1. Download the "FMOD Bank Tools" Software from GameBanana
@@ -91,6 +93,7 @@ DO NOT ALLOW GMS2 TO CHANGE THEM! ALL CHANGES HAVE TO BE DONE MANUALLY!
 
 --------------------------------------------------------------------------------------------------------------
 
+Step 3
 To replace FMOD functions with the old scripts
 (functions found in `scr_sound.gml` & `scr_soundeffect.gml`)
 
