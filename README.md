@@ -1,7 +1,17 @@
 # FMOD Replacement Kit
-A Project that aims to replace FMOD with the old audio scripts found in Pizza Tower
+A Project that aims to replace FMOD with the old audio scripts found in the Latest version of Pizza Tower
 
-This is currently in Active Development!
+> [!IMPORTANT]
+> This is currently in Active Development!
+>
+> Everything is subject to change
+
+## So why do this
+If you look at my Github Profile and my repos, you will see that I have made a Web Port of the Latest version of Pizza Tower, and that sound doesn't currently work on that port. So put 2 and 2 together and you'll know why I'm doing this
+
+## Current Progress
+This is currently just instructions to prepare the source code to Integrate the music files into the GMS2 project. You currently have to manually go through every
+object and script to completly replace FMOD, and this has not been done yet.
 
 ## Downloads
 Since the files are bigger than what Github allows, I will have to use Google Drive, and links will be added shortly
