@@ -28,7 +28,7 @@ All audio files in the ```music``` folder is set to ```Compressed - Not Streamed
 
 All audio files in the ```sfx``` folder is set to ```Compressed - Streamed```, and other settings are left on default
 
-They are configured this way in order to put the big ```music``` files into a usually small file (game.unx when making a web port), and the small ```sfx``` files into an usually big file (runner.data), in order to even out the amount of data they hold
+They are configured this way in order to put the big ```music``` files into a usually small file (game.unx), and the small ```sfx``` files into an usually big file (runner.data), in order to even out the amount of data they hold
 > This is currently just a hypothesis, and hasn't been confirm nor tested
 >
 > Also leaving them uncompressed inflates the files sizes WAY too much
