@@ -33,7 +33,7 @@ They are configured this way in order to put the big ```music``` files into a us
 >
 > Also leaving them uncompressed inflates the files sizes WAY too much
 
-Current Instructions:
+## Current Instructions:
 
 ```
 ____            ____
