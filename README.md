@@ -1,4 +1,4 @@
-# FMOD Replacement Kit
+# FMOD Replacement Instructions
 A Project that aims to replace FMOD with the old audio scripts found in the Latest version of Pizza Tower
 
 > [!IMPORTANT]
