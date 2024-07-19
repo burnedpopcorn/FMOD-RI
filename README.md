@@ -88,7 +88,9 @@ FMOD Music Bank Directories
 ----------------------------------------+
 Note that:				|
 					|
-- Music Instruments are not included	|
+- Music Instruments are not included,	|
+so if there are sounds that are missing	|
+their .wav counterparts, that is why	|
 					|
 - This hasn't been updated to reflect	|
 the global name changes that is found	|
