@@ -108,7 +108,7 @@ FMOD Music Bank Directories		Corresponding .WAV Files
    L-> \boss
 	  L-> fakepep			= mu_fakepep
 	  L-> fakepepambient		= PIZZA_TOWER_THyrzzryzryEME_SONG
-	  L-> noise			= Pizza_Tower_OST_-_Pumpin_Hot_Stuff / (Noise) Pizza_Tower_OST_-_Doise_At_the_Door
+	  L-> noise			= Pizza_Tower_OST_-_Pumpin_Hot_Stuff, (Noise) Pizza_Tower_OST_-_Doise_At_the_Door
 	  L-> noisette			= noisette
 	  L-> pepperman			= Pizza_Tower_OST_-_Pepperman_Strikes
 	  L-> pizzaface			= unexpectancy1,2,3,remix
