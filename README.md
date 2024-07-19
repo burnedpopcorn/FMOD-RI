@@ -20,7 +20,8 @@ Once I completely finish it myself, Revision 7 of my Noise Update Web Port will 
 Since the files are bigger than what Github allows, I will have to use Google Drive
 
 - [Extracted Audio for Step 1 of Instructions](https://drive.google.com/file/d/1ewwSq0ynbbuo-yBnyS5SaL6OKyhvjMy_/view?usp=sharing)
-- [Recommended Source Code](https://github.com/burnedpopcorn/Pizza-Tower-1.1.0-Web-Port/releases/tag/r6)
+- [Recommended Source Code](https://drive.google.com/file/d/1gs1QJAjL5F7jAyJLj3esFuUiEPxVb1sq/view?usp=sharing)
+> This Source Code has all of the sound files already integrated into the project for you, it just needs to have all the FMOD functions removed and replaced
 
 ## Music Configuration
 All audio files in the ```music``` folder is set to ```Compressed - Not Streamed```, and other settings are left on default
