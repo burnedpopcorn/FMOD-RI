@@ -96,6 +96,10 @@ all names are very similar, so if you	|
 have a brain, you should easily be able	|
 to know what sounds are the same	|
 					|
+- [MI(SONGS HERE)] is when a Multi	|
+Instrument is found, and those play	|
+songs found in it randomly		|
+					|
 ----------------------------------------+
 
 FMOD Music Bank Directories		Corresponding .WAV Files
@@ -269,23 +273,23 @@ FMOD Music Bank Directories		Corresponding .WAV Files
 	tutorial			= mu_funiculi
 \sfx
    L-> \antigrav
-	  L-> bump			= antigravbump1, antigravbump2, antigravbump3
+	  L-> bump			= [MI(antigravbump1, antigravbump2, antigravbump3)]
 	  L-> end			= antigravend
 	  L-> start			= antigravstart
 	\barrel
-	  L-> bump			= barrelbump1, 2, 3, 4, 5, 6, 7
+	  L-> bump			= [MI(barrelbump1, 2, 3, 4, 5, 6, 7)]
 	  L-> slide			= barrel
 	  L-> slope			= barrelslopejump
 	  L-> start			= barrelstart
 	\boxxed
-	  L-> flap			= boxxedflap1, 2, 3, 4
+	  L-> flap			= [MI(boxxedflap1, 2, 3, 4)]
 	  L-> spin			= boxxedspin
-	  L-> step			= boxxedstep1, 2, 3, 4
+	  L-> step			= [MI(boxxedstep1, 2, 3, 4)]
 	\cheese
 	  L-> ball			= cheeseball
-	  L-> ground			= cheesestep1, 2, 3, 4
-	  L-> jump			= sfx_jump, cheesejump1, 2, 3, 4
-	  L-> step			= cheeseground1, 2, 3, 4
+	  L-> ground			= [MI(cheesestep1, 2, 3, 4)]
+	  L-> jump			= [MI(cheesejump1, 2, 3, 4)], sfx_jump
+	  L-> step			= [MI(cheeseground1, 2, 3, 4)]
 	\ending
 	  L-> johnending		= johnending1, johnending2, johnending3, GET_BOSS_KEY, Pizzahead1, mrstickhat, boxxedspin
 	  L-> johnending-mu		= mu_ranks, music_null
@@ -355,7 +359,7 @@ FMOD Music Bank Directories		Corresponding .WAV Files
 	  L-> jump			= sfx_firemouthdash
 	  L-> start			= sfx_firemouthstart
 	\hub
-	  L-> gusbrickfightball		= sfx_killingblow, sfx_punch
+	  L-> gusbrickfightball		= [MI(sfx_killingblow, sfx_punch)]
 	  L-> gusrun			= sfx_mach1
 	\intro
 	  L-> pepgustavointro		= PepGustavoCliff, (Noise) Noise_Intro_2
@@ -380,15 +384,15 @@ FMOD Music Bank Directories		Corresponding .WAV Files
 	  L-> bosskey			= GET_BOSS_KEY
 	  L-> bossvulnerable		= bossvulnerable
 	  L-> bottlepop			= bottlepop
-	  L-> breakblock		= sfx_breakblock1, 2
+	  L-> breakblock		= [MI(sfx_breakblock1, 2)]
 	  L-> breakdance		= sfx_breakdance
 	  L-> breakdancemusic		= sfx_breakdancemusic
-	  L-> breakice			= icebreak2, 3
+	  L-> breakice			= [MI(icebreak2, 3)]
 	  L-> breakicebig		= icebreakbig
 	  L-> breakmetal		= sfx_breakmetal
 	  L-> bubblestation		= Bubblestation, PizzardElectricity
 	  L-> captaingoblincrosshair	= cannonball
-	  L-> captaingoblinshoot	= cannonballshot1, 2, 3, 4
+	  L-> captaingoblinshoot	= [MI(cannonballshot1, 2, 3, 4)]
 	  L-> cardcollect		= CARD_COLLECT
 	  L-> cardflip			= sfx_cardflip
 	  L-> checkpoint		= Checkpoint
@@ -407,21 +411,21 @@ FMOD Music Bank Directories		Corresponding .WAV Files
 	  L-> dashpad			= dashpad
 	  L-> detransfo			= Detransfo
 	  L-> door			= sfx_door
-	  L-> elevatorsqueak		= elevatorsqueak, elevatorsqueak2
+	  L-> elevatorsqueak		= [MI(elevatorsqueak, elevatorsqueak2)]
 	  L-> elevatorstart		= elevatording
 	  L-> escaperumble		= sfx_escaperumble
 	  L-> explosion			= sfx_explosion
 	  L-> foundtreasure		= TREASURE_FIND
 	  L-> galloping			= galloping
 	  L-> gaterise			= bossgaterise, sfx_breakblock1, sfx_breakblock2
-	  L-> golfbump			= golfbump1, 2, 3
+	  L-> golfbump			= [MI(golfbump1, 2, 3)]
 	  L-> golfjingle		= JINGLE_0, JINGLE_1, JINGLE_2, JINGLE_3
-	  L-> golfpunch			= sfx_punch, golfbump1, golfbump2, golfbump3
+	  L-> golfpunch			= sfx_punch, [MI(golfbump1, golfbump2, golfbump3)]
 	  L-> halloweenpumpkin		= pumpkin
 	  L-> hamkuff			= hamkuff1, hamkuff2, hamkuff3
 	  L-> honkhonk			= honkhonk
 	  L-> instanttemp		= instanttemp
-	  L-> jumpscare			= sfx_scream1, sfx_scream4, sfx_scream7
+	  L-> jumpscare			= [MI(sfx_scream1, sfx_scream4, sfx_scream7)]
 	  L-> kashing			= Kashing
 	  L-> kashingcombo		= Kashing, sfx_comboend
 	  L-> keyunlock			= keyunlock
@@ -432,7 +436,7 @@ FMOD Music Bank Directories		Corresponding .WAV Files
 	  L-> mine			= sfx_mine
 	  L-> mrpinch			= mrpinch1, mrpinch2
 	  L-> mrstickhat		= mrstickhat
-	  L-> mushroombounce		= mushroom1, 2, 3
+	  L-> mushroombounce		= [MI(mushroom1, 2, 3)]
 	  L-> nosepop			= nosepop
 	  L-> pepbotkick		= pepbotkick
 	  L-> pepgusswitch		= PEPPINO_GUSTAVO_SWITCHING_SONG
@@ -467,7 +471,7 @@ FMOD Music Bank Directories		Corresponding .WAV Files
 	  L-> ventilator		= sfx_ventilator
 	  L-> versusscreen		= boss_introduction
 	  L-> waterslide		= waterslide
-	  L-> watersildesplash		= watersildesplash, watersildesplash2, watersildesplash3
+	  L-> watersildesplash		= [MI(watersildesplash, watersildesplash2, watersildesplash3)]
 	  L-> watersplash		= watesplash
 	  L-> windloop			= windloop
 	  L-> winrace			= WIN_RACE
@@ -493,7 +497,7 @@ FMOD Music Bank Directories		Corresponding .WAV Files
 	  L-> ballon			= noiseballon
 	  L-> bombbounce		= noisebombbounce
 	  L-> droptrap			= groundpoundloop
-	  L-> fightball			= sfx_killingblow, noisefightball1, 2, 3, 4, 5, 6, 7, 8, 9
+	  L-> fightball			= sfx_killingblow, [MI(noisefightball1, 2, 3, 4, 5, 6, 7, 8, 9)]
 	  L-> giantballon1		= groundpoundloop
 	  L-> giantballon2		= pistolshot, sfx_explosion, sfx_breakmetal, cannonballshoot1, uppercut
 	  L-> jetpackloop		= noisejetpack
@@ -542,7 +546,7 @@ FMOD Music Bank Directories		Corresponding .WAV Files
 	  L-> johnghost			= sfx_johnghost
 	  L-> jump			= sfx_jump, jump
 	  L-> mach			= sfx_mach1, sfx_mach2, sfx_mach3, sfx_mach4
-	  L-> mach2bump			= mach2bump1, 2, 3, 4
+	  L-> mach2bump			= [MI(mach2bump1, 2, 3, 4)]
 	  L-> machpunch			= sfx_machpunch
 	  L-> machroll			= machroll
 	  L-> machslide			= sfx_machslide
@@ -562,8 +566,8 @@ FMOD Music Bank Directories		Corresponding .WAV Files
 	  L-> shotgunload		= shotgunload, shotgungot
 	  L-> shotgunshot		= shotgunshot
 	  L-> slip			= bananaslip
-	  L-> slipbump			= slipnslide1, 2, 3, 4, 5, 6, 7, 8
-	  L-> slipend			= slipnslideend1, 2, 3
+	  L-> slipbump			= [MI(slipnslide1, 2, 3, 4, 5, 6, 7, 8)
+	  L-> slipend			= [MI(slipnslideend1, 2, 3)]
 	  L-> spin			= SEWER_CUTOUT_NINJA_SLAP
 	  L-> splat			= golfbump1 x2
 	  L-> step			= sfx_step
@@ -578,17 +582,17 @@ FMOD Music Bank Directories		Corresponding .WAV Files
 	\pepperman
 	  L-> artdude			= peppermanartdude
 	  L-> groundpound		= groundpoundstart, groundpoundloop
-	  L-> groundpoundbump		= mach2bump1, 2, 3, 4
+	  L-> groundpoundbump		= [MI(mach2bump1, 2, 3, 4)]
 	  L-> groundpoundjump		= peppermanjump
 	  L-> knightappear		= gravecorpsestart
 	  L-> knightslide		= sfx_knightslide
 	  L-> shoulderbash		= ratmountgroundpound
 	  L-> shrink			= peppermanshrink
 	  L-> statueappear		= gravecorpse
-	  L-> statuedestroy		= icebreak1, sfx_breakblock1, 2
+	  L-> statuedestroy		= icebreak1, [MI(sfx_breakblock1, 2)]
 	  L-> turn			= peppermanturn, sfx_machslideboost
 	\pipe
-	  L-> bump			= pipebump1, 2, 3, 4
+	  L-> bump			= [MI(pipebump1, 2, 3, 4)]
 	  L-> end			= pipe2, sfx_killingblow, pipe1
 	  L-> start			= pipe2
 	\pizzaface
@@ -635,7 +639,7 @@ FMOD Music Bank Directories		Corresponding .WAV Files
 	  L-> divebomb			= tornado
 	  L-> doiserock			= doiserock
 	  L-> doublejump		= doublejump2, doublejump
-	  L-> fightball			= noisefightball1, 2, 3, 4, 5, 6, 7, 8, 9  , sfx_killingblow
+	  L-> fightball			= [MI(noisefightball1, 2, 3, 4, 5, 6, 7, 8, 9)]  , sfx_killingblow
 	  L-> finale_explosion		= finaleexplosion, sfx_escaperumble, sfx_explosion
 	  L-> finale_outbomb		= NoiseCrazy_1
 	  L-> finale_pizzahead		= finale2 x2
@@ -652,19 +656,19 @@ FMOD Music Bank Directories		Corresponding .WAV Files
 	  L-> mach			= mach x3, mach2step x3
 	  L-> machslide			= noisejetpack x2
 	  L-> minigunloop		= minigunloop
-	  L-> minigunshot		= minigunshot1, 2, 3, 4  , minigun1, 2, 3, 4
+	  L-> minigunshot		= [MI(minigunshot1, 2, 3, 4)]  , [MI(minigun1, 2, 3, 4)]
 	  L-> minijetpack		= minijetpack
 	  L-> piggrab			= pigthrow
 	  L-> pigthrow			= pigthrow2
-	  L-> punch			= punch1, 2
-	  L-> rushdownend		= rushdownend1, 2  , rushdownendbase
+	  L-> punch			= [MI(punch1, 2)]
+	  L-> rushdownend		= [MI(rushdownend1, 2)]  , rushdownendbase
 	  L-> rushdownhit		= rushdown2
 	  L-> rushdownloop		= rushdown1
 	  L-> superjump			= sjump
 	  L-> superjumprelease		= sjump
 	  L-> supernoiseeffect		= supernoiseeffect
 	  L-> supernoisescream		= supernoise
-	  L-> titlecard			= titlecard1, 2, 3
+	  L-> titlecard			= [MI(titlecard1, 2, 3)]
 	  L-> wallbounce		= machcancel2, skateboardjump
 	  L-> wallbounceland		= machcancelland, skateboardland
 	\rat
@@ -686,8 +690,8 @@ FMOD Music Bank Directories		Corresponding .WAV Files
 	  L-> angelmove			= MenuMove, sfx_step
 	  L-> back			= MenuBack
 	  L-> bombfuse			= fuse
-	  L-> comboup			= comboup1, 2, 4
-	  L-> fileselect		= FileSelect1, 2, 3
+	  L-> comboup			= [MI(comboup1, 2, 4)]
+	  L-> fileselect		= [MI(FileSelect1, 2, 3)]
 	  L-> fileselectN		= selectscream
 	  L-> lightswitch		= MenuLightswitch
 	  L-> menuexplosions		= menuexplosions, sfx_explosion x4
@@ -696,7 +700,7 @@ FMOD Music Bank Directories		Corresponding .WAV Files
 	  L-> percentagemove		= rankup1
 	  L-> rankdown			= rankdown5, rankdown4, rankdown3, rankdown2, rankdown1
 	  L-> rankup			= rankup1, rankup2, rankup3, rankup4, rankup5
-	  L-> select			= MenuSelect1, 2, 3
+	  L-> select			= [MI(MenuSelect1, 2, 3)]
 	  L-> slider			= Scream x2
 	  L-> slidermusic		= Scream x2
 	  L-> slidersfx			= Scream x2
@@ -726,37 +730,37 @@ FMOD Music Bank Directories		Corresponding .WAV Files
 	  L-> uziprep			= groundpoundloop
 	  L-> uzishoot			= sfx_killingblow
 	\voice
-	  L-> brickok			= BrickSniff1, 2, 3  , BrickYodeling
-	  L-> enemyrarescream		= enemyrarescream, enemyrarescream2
-	  L-> fakepepnegative		= fakepepnegative1, 2
-	  L-> fakepeppositive		= fakepeppositive1, 2, 3
+	  L-> brickok			= [MI(BrickSniff1, 2, 3  , BrickYodeling)]
+	  L-> enemyrarescream		= [MI(enemyrarescream, enemyrarescream2)]
+	  L-> fakepepnegative		= [MI(fakepepnegative1, 2)]
+	  L-> fakepeppositive		= [MI(fakepeppositive1, 2, 3)]
 	  L-> fakepepscream		= fakepepscream
 	  L-> geromegot			= GeromeGot
-	  L-> gushurt			= Voice-01, Voice-02
-	  L-> gusok			= Voice-04, 05, 06, 07, 08, 09
-	  L-> hurt			= Voice-10, Voice-11
-	  L-> mrstick			= MrStick1, MrStick4, MrStick5
-	  L-> mrsticklaugh		= MrStick2, MrStick3
+	  L-> gushurt			= [MI(Voice-01, Voice-02)]
+	  L-> gusok			= [MI(Voice-04, 05, 06, 07, 08, 09)]
+	  L-> hurt			= [MI(Voice-10, Voice-11)]
+	  L-> mrstick			= [MI(MrStick1, MrStick4, MrStick5)]
+	  L-> mrsticklaugh		= [MI(MrStick2, MrStick3)]
 	  L-> muffledscream		= Scream
-	  L-> myea			= Voice-18, Voice-19, Voice-20, Voice-14, Voice-21
-	  L-> noisenegative		= (Noise1, 2, 4) x2
-	  L-> noisepositive		= (Noise2, 3, 5, 6) x2
+	  L-> myea			= [MI(Voice-18, Voice-19, Voice-20, Voice-14, Voice-21)]
+	  L-> noisenegative		= [MI((Noise1, 2, 4) x2)]
+	  L-> noisepositive		= [MI((Noise2, 3, 5, 6) x2)]
 	  L-> noisescream		= noisescream x2
-	  L-> ok			= Voice-13, 20, 21
-	  L-> outtransfo		= Noise4
+	  L-> ok			= [MI(Voice-13, 20, 21)]
+	  L-> outtransfo		= [MI(Voice-18, 19, 12)], Noise4
 	  L-> peppermanlaugh		= PeppermanLaugh
 	  L-> peppermanscared		= PeppermanScared
 	  L-> peppermansnicker		= PeppermanSnicker
 	  L-> peppinoangryscream	= sfx_killingblow x2, peppinoangryscream
 	  L-> peppinoangryscream2	= peppinoangryscream2
 	  L-> pepwakeup			= Voice-20
-	  L-> pig			= PigOink1, 2, 3
+	  L-> pig			= [MI(PigOink1, 2, 3)]
 	  L-> pigphoto			= pigphoto
-	  L-> pizzagranny		= PizzaGranny1, 2, 3
-	  L-> pizzahead			= Pizzahead1, 3
+	  L-> pizzagranny		= [MI(PizzaGranny1, 2, 3)]
+	  L-> pizzahead			= [MI(Pizzahead1, 3)]
 	  L-> sliderscream		= Scream
-	  L-> swap			= (Voice-13, 20, 21), (Noise2, 3, 5, 6), (Voice-04, 05, 06, 07, 08, 09)
-	  L-> transfo			= Voice-23, 22, 14  , Noise4
+	  L-> swap			= [MI(Voice-13, 20, 21)], [MI(Noise2, 3, 5, 6)], [MI(Voice-04, 05, 06, 07, 08, 09)]
+	  L-> transfo			= [MI(Voice-23, 22, 14)], Noise4
 	  L-> vigiangry			= vigi2
 	  L-> vigiduel			= vigi3
 	  L-> vigiintro			= vigi1
