@@ -90,10 +90,11 @@ Add this to `scr_sound.gml` (WIP, and NOT YET TESTED!!!):
 function scr_soundrandom() // this custom funct should recreate FMOD Multi Instruments
 {
 	var songnums = argument[0];			// this makes first arguement state amount of songs to randomize
-	var randomsong = random(songnums);		// this take amount of songs and chooses one of them
-	if randomsong == 0 // to ensure it does NOT call arg 0, as that's not a valid song obviously
-		++randomsong
-	return scr_soundeffect(argument[randomsong]);	// selects and plays random song
+	var rand = random(songnums);		// this take amount of songs and chooses one of them
+	if rand == 0 // to ensure it does NOT call arg 0, as that's not a valid song obviously
+		++rand
+	var randsong = argument[rand]; // should ensure correct loading of song to scr_soundeffect()
+	scr_soundeffect(randsong);	// selects and plays random song
 }
 ------
 Use this for any sounds that use Multi Instruments (you can find them below)
