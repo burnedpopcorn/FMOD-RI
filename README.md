@@ -85,19 +85,18 @@ You have to replace these functions from almost every object/script in the game 
 Step 3
 Adding some Custom Functions
 
-Add this to `scr_sound.gml` (WIP, and NOT YET TESTED!!!):
+Add this to `scr_sound.gml`:
 -------
 function scr_soundrandom() // this custom funct should recreate FMOD Multi Instruments
 {
-	var songnums = argument[0];			// this makes first arguement state amount of songs to randomize
-	var rand = random(songnums);		// this take amount of songs and chooses one of them
-	if rand == 0 // to ensure it does NOT call arg 0, as that's not a valid song obviously
-		++rand
-	var randsong = argument[rand]; // should ensure correct loading of song to scr_soundeffect()
-	scr_soundeffect(randsong);	// selects and plays random song
+	randomise();				// forces true random numbers
+	var rand = irandom_range(1, argument0); // randomizes the first song and amount of songs specified
+	scr_soundeffect(argument[rand]);	// selects and plays random song
 }
 ------
 Use this for any sounds that use Multi Instruments (you can find them below)
+Example: scr_soundrandom(3, sfx_FileSelect1, sfx_FileSelect2, sfx_FileSelect3);
+[First arg states there are 3 songs, rest of args are for sounds you want to include (you can add as many as you want)]
 
 --------------------------------------------------------------------------------------------------------------
 
