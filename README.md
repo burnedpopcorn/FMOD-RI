@@ -2,19 +2,11 @@
 A Project that aims to replace FMOD with the old audio scripts found in the Latest version of Pizza Tower
 
 > [!IMPORTANT]
-> This is currently in Active Development!
->
-> Everything is subject to change
-
-## So why do this
-If you look at my Github Profile and my repos, you will see that I have made a Web Port of the Latest version of Pizza Tower, and that sound doesn't currently work on that port. So put 2 and 2 together and you'll know why I'm doing this
+> This is not longer in active development, and is abandoned
 
 ## Current Progress
 This is currently just instructions to prepare the source code to Integrate the music files into the GMS2 project. You currently have to manually go through every
 object and script to completly replace FMOD, and this has not been done yet.
-
-Once I completely finish it myself, Revision 7 of my Noise Update Web Port will release (with the source code, so you don't have to suffer)
-> Once r7 does release, this repo will probably be archived
 
 ## Downloads
 Since the files are bigger than what Github allows, I will have to use Google Drive
@@ -27,11 +19,6 @@ Since the files are bigger than what Github allows, I will have to use Google Dr
 All audio files in the ```music``` folder is set to ```Compressed - Not Streamed```, and other settings are left on default
 
 All audio files in the ```sfx``` folder is set to ```Compressed - Streamed```, and other settings are left on default
-
-They are configured this way in order to put the big ```music``` files into a usually small file (game.unx), and the small ```sfx``` files into an usually big file (runner.data), in order to even out the amount of data they hold
-> This is currently just a hypothesis, and hasn't been confirm nor tested
->
-> Also leaving them uncompressed inflates the files sizes WAY too much
 
 ## Current Instructions:
 
