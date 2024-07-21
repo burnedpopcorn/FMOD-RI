@@ -2,7 +2,9 @@
 A Project that aims to replace FMOD with the old audio scripts found in the Latest version of Pizza Tower
 
 > [!IMPORTANT]
-> This is not longer in active development, and is abandoned
+> This is currently in active development, but can very well change
+>
+> Even if this is archived, the links should stay up. If they stop working, please contact me
 
 ## Current Progress
 This is currently just instructions to prepare the source code to Integrate the music files into the GMS2 project. You currently have to manually go through every
